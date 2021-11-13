@@ -78,3 +78,25 @@ document.querySelector('#btn_6').addEventListener('input', () => {
     // let styleCarr = getComputedStyle(carre).border
     carre.style.borderLeftWidth = `${btn_6.value}px`  
 })
+
+//troisieme rangee de bouton
+document.querySelector('#btn_7').addEventListener('input', () => {
+    // let styleCarr = getComputedStyle(carre).border
+    carre.style.borderRadius = `${btn_7.value}px`  
+})
+document.querySelector('#btn_8').addEventListener('input', () => {
+    // let styleCarr = getComputedStyle(carre).border
+    carre.style.borderTopLeftRadius = `${btn_8.value}px`  
+})
+document.querySelector('#btn_9').addEventListener('input', () => {
+    // let styleCarr = getComputedStyle(carre).border
+    carre.style.borderTopRightRadius = `${btn_9.value}px`  
+})
+document.querySelector('#btn_10').addEventListener('input', () => {
+    // let styleCarr = getComputedStyle(carre).border
+    carre.style.borderBottomRightRadius = `${btn_10.value}px`  
+})
+document.querySelector('#btn_11').addEventListener('input', () => {
+    // let styleCarr = getComputedStyle(carre).border
+    carre.style.borderBottomLeftRadius = `${btn_11.value}px`  
+})
