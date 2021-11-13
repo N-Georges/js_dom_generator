@@ -49,3 +49,32 @@ document.querySelector('#top_3').addEventListener('click', () => {
         carre.style.borderTop = '10px dotted'
     }
 })
+
+//deuxieme ranger de boutton
+document.querySelector('#btn_1').addEventListener('input', () => {
+    // let styleCarr = getComputedStyle(carre).border
+    console.log(btn_2.value);
+    carre.style.backgroundColor = btn_1.value 
+})
+document.querySelector('#btn_2').addEventListener('input', () => {
+    // let styleCarr = getComputedStyle(carre).border
+    console.log(btn_2.value);
+    carre.style.borderWidth = `${btn_2.value}px` 
+})
+
+document.querySelector('#btn_3').addEventListener('input', () => {
+    // let styleCarr = getComputedStyle(carre).border
+    carre.style.borderTopWidth = `${btn_3.value}px`  
+})
+document.querySelector('#btn_4').addEventListener('input', () => {
+    // let styleCarr = getComputedStyle(carre).border
+    carre.style.borderRightWidth = `${btn_4.value}px`  
+})
+document.querySelector('#btn_5').addEventListener('input', () => {
+    // let styleCarr = getComputedStyle(carre).border
+    carre.style.borderBottomWidth = `${btn_5.value}px`  
+})
+document.querySelector('#btn_6').addEventListener('input', () => {
+    // let styleCarr = getComputedStyle(carre).border
+    carre.style.borderLeftWidth = `${btn_6.value}px`  
+})
