@@ -1,0 +1,241 @@
+h1{
+    background: lightseagreen;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    border-left: 10px solid royalblue;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.grande_div{
+    border-top: 4px solid lightseagreen;
+    border-radius: 5px;
+    width: 100%;
+    /* -webkit-box-shadow: 5px 4px 11px 0px #000000; 
+    box-shadow: 5px 4px 11px 0px #000000; */
+    -webkit-box-shadow : -1px 14px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow : -1px 14px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 14px 20px 0px rgba(0,0,0,0.75);
+}
+
+/* first div start */
+.first_div{
+    /* margin-bottom: 20px; */
+    padding: 10px 10px;
+    border-bottom: 1px solid lightslategrey;
+}
+#W{
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#R{
+    border: none;
+    padding: 10px;
+    background-color: red;
+    border-radius: 3px;
+    cursor: pointer;
+
+
+}
+#G{
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: limegreen;
+    cursor: pointer;
+
+
+}
+#B{
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: royalblue;
+    cursor: pointer;
+
+
+}
+#solid{
+    border: 2px solid black;
+    padding: 12px;
+    width: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#dashed{
+    border: 2px dashed black;
+    padding: 12px;
+    width: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#dotted{
+    border: 2px dotted black;
+    padding: 12px;
+    width: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 5px; 
+}
+#top_1{
+    padding: 12px;
+    width: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+}
+#top_2{
+    padding: 12px;
+    width: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    border-top: 3px solid red;
+}
+#top_3{
+    padding: 12px;
+    width: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    border-top: 5px solid red;
+}
+/* first div end */
+
+/* two div start */
+
+.two_div{
+    padding: 10px 10px;
+}
+#btn_1{
+    border: 1px solid lightslategray;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+#btn_2{
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+/* #btn_2 input{
+    border: none;
+    background: transparent;
+} */
+#btn_3{
+    border: 1px solid lightslategray;
+    border-top: 2px solid black;
+    border-radius: 3px;
+    width: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 5px;  
+}
+#btn_4{
+    border: 1px solid lightslategray;
+    border-right: 2px solid black;
+    border-radius: 3px;
+    width: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 5px;
+
+}
+#btn_5{
+    border: 1px solid lightslategray;
+    border-bottom: 2px solid black;
+    border-radius: 3px;
+    width: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 5px;
+
+}
+#btn_6{
+    border: 1px solid lightslategray;
+    border-left: 2px solid black;
+    border-radius: 3px;
+    width: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.three_div{
+    padding: 10px 10px;
+}
+
+#btn_7{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30px;
+    padding: 10px 14px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+#btn_8{
+    border: 1px solid lightslategray;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 5px;
+    width: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 5px;
+
+
+}
+#btn_9{
+    border: 1px solid lightslategray;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    width: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 5px;
+
+
+}
+#btn_10{
+    border: 1px solid lightslategray;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 5px;
+    width: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 5px;
+
+
+}
+#btn_11{
+    border: 1px solid lightslategray;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 5px;
+    width: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 5px;
+
+}
+
+
+.four_div{
+    padding: 10px 10px;
+}
+#grand_carre{
+    width: 300px;
+    height: 150px;
+    border: 3px solid black;
+    background-color: lightgrey;
+}
